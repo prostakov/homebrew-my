@@ -16,7 +16,7 @@ class BoostAT157 < Formula
   
     keg_only :versioned_formula
   
-    disable! date: "2020-09-01", because: :versioned_formula
+    #disable! date: "2020-09-01", because: :versioned_formula
   
     # Fix build on Xcode 11.4
     patch do
